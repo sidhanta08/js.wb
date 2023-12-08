@@ -6,6 +6,7 @@
     audi:"q7"
 }
 */
+/*
 const jsuser={
     name:"sidhanta",
     email:"sidhantakp2018@gmail.com",
@@ -20,7 +21,35 @@ jsuser.email="sjskumarakp@gmail.com";
 Object.freeze(jsuser);
 jsuser.email="sidhanta@gmail.com";
 console.log(jsuser.email);
-jsuser.greeting=function(){
-    console.log("hello future winner");
+
+jsuser. greetingt=function(){
+    console.log(`helllo js user , ${this.name}`);
+ 
 }
-console.log(jsuser.greeting());
+
+console.log(jsuser. greetingt());
+*/
+/*
+const tuser={}
+tuser.id="123",
+tuser.email="sunny@gmail.com"
+console.log(tuser);
+*/
+
+const ruser={
+    email:"sidhu@gmail.com",
+    fullname:{
+        userfullname:{
+            firstname:"sidhu",
+            lastname:"prusty"
+        }
+    }
+}
+console.log(ruser.fullname.userfullname);
+
+/*
+- json-javascript object notation.
+        to help for storing data in our local disk and we can manipulate these data also in one place to another.
+- api- application proramming interface.
+        it is a mechanism that enables two software components to continue with each other using a set of defination and protocols.        
+*/
